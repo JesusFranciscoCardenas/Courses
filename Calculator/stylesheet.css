@@ -1,0 +1,65 @@
+body{
+   color: white;
+    background-image: url("pizza.jpg"); 
+    background-size: cover;
+}
+
+h1{
+    width: fit-content;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#instructions{
+    font-size: 15px;;
+    width: fit-content;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#operations{
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#init{
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#button {
+    display: block;
+    background-image: url("pizza.jpg");
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2px;
+    text-align: center;
+}
+
+#button:hover{
+    background-image: none ;
+    background-color: cornsilk;
+
+    color: rgb(78, 56, 8);
+}
+
+footer{
+    width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
