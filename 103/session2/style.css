@@ -1,0 +1,259 @@
+/* global */
+:root {
+    --details:#ffcc02;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(97, 126, 97);
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 400;
+    letter-spacing: .5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+/* utilities */
+
+/* Information Section */
+section.information {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+#logo {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 256px;
+    height: 64px;
+    opacity: 1;
+    
+}
+#history-header{
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.548);
+    
+}
+section.information h2 {
+    font-size: 1.8rem;
+    padding-left: 2.5rem;
+    border-left: 2px solid var(--details);
+}
+@media(min-width: 768px) {
+    section.information h2 {
+        font-size: 2.5em;
+        padding-left: 2.5rem;
+        border-left: 2px solid var(--details);
+        text-align: left;
+    }
+}
+
+.info-text {
+    padding: 1rem;
+}
+
+
+.info-text h3 {
+    width: 5rem;
+    text-align: center;
+    border-left: 1px solid #8a8a8a;
+    border-right: 1px solid #8a8a8a;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    letter-spacing: .3rem;
+}
+
+.grid-three {
+    display: grid;
+}
+
+@media(min-width: 768px) {
+    .grid-three {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+}
+
+.info-text p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.info-text p:hover {
+    color: #8a8a8a;
+}
+
+/* history section */
+.history-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.history-text {
+    background-image: url(https://www.rosarioplus.com/__export/1520614134672/sites/rosarioplus/img/2018/03/09/diferencias-cocodrilos-caimanes-z-655x368.jpg_501420591.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 1rem 7rem 4rem 7rem;
+    height: 50vh;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.history-text p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    padding-top: 1rem;
+}
+
+.history-section h3{
+    width: 7rem;
+    text-align: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    letter-spacing: .3rem;
+}
+.history-section h2 {
+    color: #cccccc;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* footer */
+
+footer.footer-site {
+    background-color: #dedede;
+    height: 20vh;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+div.footer-more-info{
+    display: block;
+    border-left: 1px solid black;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    height: 6rem;
+}
+
+div.footer-more-info h4{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+ 
+
+
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+div.footer-more-info input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+div.footer-more-info input[type=submit]:hover {
+    
+    color: var(--details);
+}
+
+
+div.footer-more-info input[type=email] {
+    font-size: 1.2rem;
+    border: none;
+    background-color: white;
+    color: #dedede;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    
+}
+
+
+div.social-networks{
+    border-left: 1px solid black;
+    padding-left: 1rem;
+    margin-left: 5rem;
+    height: 6rem;
+
+    
+}
+
+div.social-networks h4{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+div.icons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+
+}
+
+div.icons a{
+    margin: 0.5rem;
+    text-decoration: none;
+    
+}
+
+div.icons a:hover{
+    opacity: .5;
+    
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-instagram{
+    color: purple;
+}
+
+.fa-flipboard{
+    color: red;
+}
