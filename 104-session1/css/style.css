@@ -1,0 +1,48 @@
+body{
+
+   color: rgb(39, 199, 39);
+    background-image: url("/PARQUE.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.menu{
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.image{
+    background-color: rgb(39, 199, 39)
+}
+
+img{
+    height: 100%;
+    background-size: cover;
+}
+.info-global{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 25px;
+    background-color: rgb(10, 77, 16);
+    
+}
+
+
+.card{
+    border: rgb(39, 199, 39) 5px solid;
+    height: fit-content;
+    margin-bottom: 20px;
+   
+}
