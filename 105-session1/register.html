@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="" alt="logo">
+        <h1>The fashion pet</h1>
+    </header>
+    
+    <section>
+        <nav id="menu1" class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+        </nav>
+
+        <nav id="menu2" class="menu">
+            <a href="index.html">Home2</a>
+            <a href="about.html">About2</a>
+            <a href="services.html">Services2</a>
+            <a href="register.html">Register2</a>
+        </nav>
+    </section>
+
+    <main id="main">
+      <form action="">
+        <p>
+            <label for="name">Name</label>
+            <input type="text" name="" id="petName">
+        </p>
+
+        <p>
+            <label for="age">Age</label>
+            <input type="text" name="" id="petAge">
+        </p>
+        <p>
+            <label for="type">Type</label>
+            <input type="text" name="" id="petType">
+        </p>
+        <p>
+            <label for="breed">Breed</label>
+            <input type="text" name="" id="petBreed">
+        </p>
+        <p>
+            <label for="gender">Gender</label>
+            <input type="text" name="" id="petGender">
+        </p>
+        <p>
+            <label for="service">Service</label>
+                 <select name="services" id="petService">
+                    <option value="" disabled selected> Select Service</option>
+                    <option value="Shower">Shower</option>
+                    <option value="hairCut">Hair Cut</option>
+            </select>
+        </p>
+        <p>
+            <label for="ownersName">Owner</label>
+            <input type="text" name="" id="petOwnersName">
+        </p>
+        <p>
+            <label for="conctactPhone">Phone</label>
+            <input type="text" name="" id="petContactPhone">
+        </p>
+        <p>
+            <input type="button" value="Register" name="" id="" onclick="register();">
+        </p>
+      </form>
+      
+      
+      
+      <!--  <p>
+            <label for="user">User</label>
+            <input type="text" name="" id="userName">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="" id="userPass">
+        </p>    
+        <p>
+            <input type="button" value="Log in" name="" id="" onclick="login();">
+        </p> -->
+
+    </main>
+
+    <section class="container table-container">
+
+    <table class="table">
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Type</th>
+            <th>Gender</th>
+            <th>Breed</th>
+            <th>Service</th>
+            <th>Owner</th>
+            <th>Contact Phone</th>
+        </thead>
+        <tbody id="rowPet">
+
+
+        </tbody>
+    </table>
+</section>  
+
+    <div id="msg">
+
+    </div>
+
+    <footer>
+        <div id="info">
+
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <!--<script src="js/test2.js"></script> -->
+   <!-- <script src="js/script5.js"></script> -->
+</body>
+</html>
